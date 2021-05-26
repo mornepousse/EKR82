@@ -1,4 +1,4 @@
-(module lily58_logo (layer F.Cu) (tedit 5B8F6F90)
+(module EKR82_logo (layer F.Cu) (tedit 5B8F6F90)
   (fp_text reference G*** (at 0 -2) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.3)))
   )

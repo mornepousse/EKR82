@@ -1,4 +1,4 @@
-#include "lily58.h"
+#include "EKR82.h"
 
 const char *read_logo(void) {
   static char logo[] = {

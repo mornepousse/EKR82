@@ -1,4 +1,4 @@
-(module Lily58-footprint:CherryMX_KailhLowProfile_Hotswap_edge (layer F.Cu) (tedit 5BEDEB01)
+(module EKR82-footprint:CherryMX_KailhLowProfile_Hotswap_edge (layer F.Cu) (tedit 5BEDEB01)
   (fp_text reference SW2 (at 7 8.1) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )

@@ -3613,7 +3613,7 @@
       (net 41 col5))
   )
 
-  (module Lily58-footprint:MJ-4PP-9 (layer F.Cu) (tedit 5C04A346) (tstamp 5B8BE8A5)
+  (module EKR82-footprint:MJ-4PP-9 (layer F.Cu) (tedit 5C04A346) (tstamp 5B8BE8A5)
     (at 87.9 39.3)
     (path /5B742D8C)
     (fp_text reference J2 (at -0.1 15.1) (layer F.SilkS) hide
@@ -3665,7 +3665,7 @@
     )
   )
 
-  (module Lily58-footprint:LED (layer F.Cu) (tedit 5C0280B0) (tstamp 5BEDDC08)
+  (module EKR82-footprint:LED (layer F.Cu) (tedit 5C0280B0) (tstamp 5BEDDC08)
     (at 112.7 81.1 180)
     (path /5B74AE32)
     (fp_text reference J1 (at 0 -2.54 180) (layer F.SilkS) hide
@@ -3724,7 +3724,7 @@
       (net 34 VCC))
   )
 
-  (module Lily58-footprint:ProMicro_rev2 (layer F.Cu) (tedit 5BA33124) (tstamp 5B8BE963)
+  (module EKR82-footprint:ProMicro_rev2 (layer F.Cu) (tedit 5BA33124) (tstamp 5B8BE963)
     (at 101 56)
     (path /5B722440)
     (fp_text reference U1 (at 0 1.2) (layer F.SilkS) hide
@@ -3853,7 +3853,7 @@
       (net 45 RESET))
   )
 
-  (module Lily58-footprint:HOLE_M2_TH (layer F.Cu) (tedit 5F37C801) (tstamp 5B8BE94E)
+  (module EKR82-footprint:HOLE_M2_TH (layer F.Cu) (tedit 5F37C801) (tstamp 5B8BE94E)
     (at 129.6 59.6)
     (path /5B74DA95)
     (fp_text reference TH3 (at 0 -2.54) (layer F.SilkS) hide
@@ -3866,7 +3866,7 @@
       (clearance 0.3))
   )
 
-  (module Lily58-footprint:HOLE_M2_TH (layer F.Cu) (tedit 5F37C6F7) (tstamp 5B8BE953)
+  (module EKR82-footprint:HOLE_M2_TH (layer F.Cu) (tedit 5F37C6F7) (tstamp 5B8BE953)
     (at 205.8 61.8)
     (path /5B74D1C0)
     (fp_text reference TH4 (at 0 -2.54) (layer F.SilkS) hide
@@ -3879,7 +3879,7 @@
       (clearance 0.3))
   )
 
-  (module Lily58-footprint:HOLE_M2_TH (layer F.Cu) (tedit 5BE68246) (tstamp 5B8BE958)
+  (module EKR82-footprint:HOLE_M2_TH (layer F.Cu) (tedit 5BE68246) (tstamp 5B8BE958)
     (at 129.6 97.6)
     (path /5B74D78B)
     (fp_text reference TH5 (at 0 -2.54) (layer F.SilkS) hide
@@ -3892,7 +3892,7 @@
       (clearance 0.3))
   )
 
-  (module Lily58-footprint:HOLE_M2_TH (layer F.Cu) (tedit 5F37C709) (tstamp 5B8BE95D)
+  (module EKR82-footprint:HOLE_M2_TH (layer F.Cu) (tedit 5F37C709) (tstamp 5B8BE95D)
     (at 224.8 100)
     (path /5B74D88C)
     (fp_text reference TH6 (at 0 -2.54) (layer F.SilkS) hide
@@ -3905,7 +3905,7 @@
       (clearance 0.3))
   )
 
-  (module Lily58-footprint:HOLE_M2_TH (layer F.Cu) (tedit 5BE68246) (tstamp 5B8BE962)
+  (module EKR82-footprint:HOLE_M2_TH (layer F.Cu) (tedit 5BE68246) (tstamp 5B8BE962)
     (at 94.615 117.475 90)
     (path /5B74D98F)
     (fp_text reference TH7 (at 0 -2.54 90) (layer F.SilkS) hide
@@ -3918,7 +3918,7 @@
       (clearance 0.3))
   )
 
-  (module Lily58-footprint:1pin_conn (layer F.Cu) (tedit 5B8DD5B8) (tstamp 5B8BE931)
+  (module EKR82-footprint:1pin_conn (layer F.Cu) (tedit 5B8DD5B8) (tstamp 5B8BE931)
     (at 84.7 60.7 180)
     (descr "Resitance 3 pas")
     (tags R)
@@ -3958,7 +3958,7 @@
     )
   )
 
-  (module Lily58-footprint:1pin_conn (layer F.Cu) (tedit 5B8DD58D) (tstamp 5B8BE93F)
+  (module EKR82-footprint:1pin_conn (layer F.Cu) (tedit 5B8DD58D) (tstamp 5B8BE93F)
     (at 86.9 60.7 180)
     (descr "Resitance 3 pas")
     (tags R)
@@ -3998,7 +3998,7 @@
     )
   )
 
-  (module Lily58-footprint:RESISTOR_mini (layer F.Cu) (tedit 5B8CD50C) (tstamp 5B735209)
+  (module EKR82-footprint:RESISTOR_mini (layer F.Cu) (tedit 5B8CD50C) (tstamp 5B735209)
     (at 86.938035 56.039272 270)
     (descr "Resitance 3 pas")
     (tags R)
@@ -4037,7 +4037,7 @@
     )
   )
 
-  (module Lily58-footprint:RESISTOR_mini (layer F.Cu) (tedit 5B8CD4DE) (tstamp 5B7351FC)
+  (module EKR82-footprint:RESISTOR_mini (layer F.Cu) (tedit 5B8CD4DE) (tstamp 5B7351FC)
     (at 84.688035 56.039272 270)
     (descr "Resitance 3 pas")
     (tags R)
@@ -4076,7 +4076,7 @@
     )
   )
 
-  (module Lily58-footprint:TACT_SWITCH_TVBP06 (layer F.Cu) (tedit 5BE4B1E0) (tstamp 5BE9586C)
+  (module EKR82-footprint:TACT_SWITCH_TVBP06 (layer F.Cu) (tedit 5BE4B1E0) (tstamp 5BE9586C)
     (at 85 67.7 90)
     (path /5B8CE7E7)
     (fp_text reference RSW1 (at 0 -1.7 90) (layer F.SilkS) hide
@@ -4110,7 +4110,7 @@
       (net 45 RESET))
   )
 
-  (module Lily58-footprint:jumper_data (layer F.Cu) (tedit 5BF1A788) (tstamp 5BE95B4C)
+  (module EKR82-footprint:jumper_data (layer F.Cu) (tedit 5BF1A788) (tstamp 5BE95B4C)
     (at 89 60.7 90)
     (path /5B900157)
     (attr smd)
@@ -4137,7 +4137,7 @@
     )
   )
 
-  (module Lily58-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE97281)
+  (module EKR82-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE97281)
     (at 190.6 60.4)
     (descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
     (tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
@@ -4162,7 +4162,7 @@
       (net 5 row0))
   )
 
-  (module Lily58-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE9728E)
+  (module EKR82-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE9728E)
     (at 221.8 61.8)
     (descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
     (tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
@@ -4187,7 +4187,7 @@
       (net 10 "Net-(D6-Pad2)"))
   )
 
-  (module Lily58-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE9729B)
+  (module EKR82-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE9729B)
     (at 114.4 61.1)
     (descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
     (tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
@@ -4212,7 +4212,7 @@
       (net 7 row1))
   )
 
-  (module Lily58-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE972A8)
+  (module EKR82-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE972A8)
     (at 135.3 58.7)
     (descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
     (tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
@@ -4237,7 +4237,7 @@
       (net 7 row1))
   )
 
-  (module Lily58-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE972B5)
+  (module EKR82-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE972B5)
     (at 152.6 57.4)
     (descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
     (tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
@@ -4262,7 +4262,7 @@
       (net 7 row1))
   )
 
-  (module Lily58-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE972C2)
+  (module EKR82-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE972C2)
     (at 171.5 58.7)
     (descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
     (tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
@@ -4287,7 +4287,7 @@
       (net 15 "Net-(D10-Pad2)"))
   )
 
-  (module Lily58-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE972CF)
+  (module EKR82-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE972CF)
     (at 190.6 63.3)
     (descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
     (tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
@@ -4312,7 +4312,7 @@
       (net 7 row1))
   )
 
-  (module Lily58-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE972DC)
+  (module EKR82-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE972DC)
     (at 221.8 64.9)
     (descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
     (tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
@@ -4337,7 +4337,7 @@
       (net 7 row1))
   )
 
-  (module Lily58-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE972E9)
+  (module EKR82-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE972E9)
     (at 114.4 96)
     (descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
     (tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
@@ -4362,7 +4362,7 @@
       (net 18 "Net-(D13-Pad2)"))
   )
 
-  (module Lily58-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE972F6)
+  (module EKR82-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE972F6)
     (at 134.3 93.8)
     (descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
     (tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
@@ -4387,7 +4387,7 @@
       (net 9 row2))
   )
 
-  (module Lily58-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE97303)
+  (module EKR82-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE97303)
     (at 152.5 92.3)
     (descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
     (tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
@@ -4412,7 +4412,7 @@
       (net 9 row2))
   )
 
-  (module Lily58-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE97310)
+  (module EKR82-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE97310)
     (at 171.5 93.6)
     (descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
     (tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
@@ -4437,7 +4437,7 @@
       (net 21 "Net-(D16-Pad2)"))
   )
 
-  (module Lily58-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE9731D)
+  (module EKR82-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE9731D)
     (at 190.6 98.3)
     (descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
     (tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
@@ -4462,7 +4462,7 @@
       (net 22 "Net-(D17-Pad2)"))
   )
 
-  (module Lily58-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE9732A)
+  (module EKR82-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE9732A)
     (at 215.61 96.99)
     (descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
     (tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
@@ -4487,7 +4487,7 @@
       (net 9 row2))
   )
 
-  (module Lily58-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE97337)
+  (module EKR82-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE97337)
     (at 114.4 99.1)
     (descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
     (tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
@@ -4512,7 +4512,7 @@
       (net 11 row3))
   )
 
-  (module Lily58-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE97344)
+  (module EKR82-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE97344)
     (at 135.3 96.8)
     (descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
     (tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
@@ -4537,7 +4537,7 @@
       (net 25 "Net-(D20-Pad2)"))
   )
 
-  (module Lily58-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE97351)
+  (module EKR82-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE97351)
     (at 152.5 95.4)
     (descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
     (tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
@@ -4562,7 +4562,7 @@
       (net 11 row3))
   )
 
-  (module Lily58-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE9735E)
+  (module EKR82-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE9735E)
     (at 171.5 96.8)
     (descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
     (tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
@@ -4587,7 +4587,7 @@
       (net 27 "Net-(D22-Pad2)"))
   )
 
-  (module Lily58-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE9736B)
+  (module EKR82-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE9736B)
     (at 190.6 101.5)
     (descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
     (tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")
@@ -4612,7 +4612,7 @@
       (net 11 row3))
   )
 
-  (module Lily58-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE97378)
+  (module EKR82-footprint:Diode_SOD123 placed (layer F.Cu) (tedit 5B9E4996) (tstamp 5BE97378)
     (at 215.94 102.32)
     (descr "Diode, DO-41, SOD81, Horizontal, RM 10mm,")
     (tags "Diode, DO-41, SOD81, Horizontal, RM 10mm, 1N4007, SB140,")

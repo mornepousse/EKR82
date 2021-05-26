@@ -1,4 +1,4 @@
-(module Lily58-footprint:MX_PG1350-Under_FLIP_HOLES_18mm (layer F.Cu) (tedit 5B8283C3)
+(module EKR82-footprint:MX_PG1350-Under_FLIP_HOLES_18mm (layer F.Cu) (tedit 5B8283C3)
   (descr MXALPS)
   (tags MXALPS)
   (fp_text reference SW13 (at 0 3.048) (layer B.SilkS) hide

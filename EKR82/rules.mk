@@ -44,4 +44,4 @@ LIB_SRC += serial.c
 # if firmware size over limit, try this option
 # CFLAGS += -flto
 
-DEFAULT_FOLDER = lily58/rev1
+DEFAULT_FOLDER = EKR82/rev1
