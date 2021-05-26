@@ -20,11 +20,11 @@ X 2 2 300 0 165 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# EKR82_Pro-rescue_D-EKR82-cache
+# EKR82-rescue_D-EKR82-cache
 #
-DEF EKR82_Pro-rescue_D-EKR82-cache D 0 40 N N 1 F N
+DEF EKR82-rescue_D-EKR82-cache D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "EKR82_Pro-rescue_D-EKR82-cache" 0 -100 50 H V C CNN
+F1 "EKR82-rescue_D-EKR82-cache" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -42,11 +42,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# EKR82_Pro-rescue_GND-EKR82-cache
+# EKR82-rescue_GND-EKR82-cache
 #
-DEF EKR82_Pro-rescue_GND-EKR82-cache #PWR 0 0 Y Y 1 F P
+DEF EKR82-rescue_GND-EKR82-cache #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "EKR82_Pro-rescue_GND-EKR82-cache" 0 -150 50 H V C CNN
+F1 "EKR82-rescue_GND-EKR82-cache" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -55,11 +55,11 @@ X GND 1 0 0 0 R 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# EKR82_Pro-rescue_HOLE-EKR82-cache
+# EKR82-rescue_HOLE-EKR82-cache
 #
-DEF EKR82_Pro-rescue_HOLE-EKR82-cache U 0 40 Y Y 1 F N
+DEF EKR82-rescue_HOLE-EKR82-cache U 0 40 Y Y 1 F N
 F0 "U" 0 0 60 H V C CNN
-F1 "EKR82_Pro-rescue_HOLE-EKR82-cache" 0 -200 60 H V C CNN
+F1 "EKR82-rescue_HOLE-EKR82-cache" 0 -200 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -68,11 +68,11 @@ S 150 200 -150 -150 0 1 0 N
 ENDDRAW
 ENDDEF
 #
-# EKR82_Pro-rescue_LED-EKR82-cache
+# EKR82-rescue_LED-EKR82-cache
 #
-DEF EKR82_Pro-rescue_LED-EKR82-cache J 0 40 Y N 1 F N
+DEF EKR82-rescue_LED-EKR82-cache J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "EKR82_Pro-rescue_LED-EKR82-cache" 0 -200 50 H V C CNN
+F1 "EKR82-rescue_LED-EKR82-cache" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -96,11 +96,11 @@ X Pin_3 3 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# EKR82_Pro-rescue_MJ-4PP-9-EKR82-cache
+# EKR82-rescue_MJ-4PP-9-EKR82-cache
 #
-DEF EKR82_Pro-rescue_MJ-4PP-9-EKR82-cache J 0 40 Y Y 1 F N
+DEF EKR82-rescue_MJ-4PP-9-EKR82-cache J 0 40 Y Y 1 F N
 F0 "J" -350 -300 60 H V C CNN
-F1 "EKR82_Pro-rescue_MJ-4PP-9-EKR82-cache" -150 250 60 H V C CNN
+F1 "EKR82-rescue_MJ-4PP-9-EKR82-cache" -150 250 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -120,11 +120,11 @@ X ~ 4 450 150 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# EKR82_Pro-rescue_PWR_FLAG-EKR82-cache
+# EKR82-rescue_PWR_FLAG-EKR82-cache
 #
-DEF EKR82_Pro-rescue_PWR_FLAG-EKR82-cache #FLG 0 0 N N 1 F P
+DEF EKR82-rescue_PWR_FLAG-EKR82-cache #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 0 50 H I C CNN
-F1 "EKR82_Pro-rescue_PWR_FLAG-EKR82-cache" 0 150 50 H V C CNN
+F1 "EKR82-rescue_PWR_FLAG-EKR82-cache" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -133,11 +133,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# EKR82_Pro-rescue_ProMicro_2-EKR82-cache
+# EKR82-rescue_ProMicro_2-EKR82-cache
 #
-DEF EKR82_Pro-rescue_ProMicro_2-EKR82-cache U 0 40 Y Y 1 F N
+DEF EKR82-rescue_ProMicro_2-EKR82-cache U 0 40 Y Y 1 F N
 F0 "U" 0 700 50 H V C CNN
-F1 "EKR82_Pro-rescue_ProMicro_2-EKR82-cache" 0 -700 50 H V C CNN
+F1 "EKR82-rescue_ProMicro_2-EKR82-cache" 0 -700 50 H V C CNN
 F2 "" -50 100 50 H I C CNN
 F3 "" -50 100 50 H I C CNN
 DRAW
@@ -169,11 +169,11 @@ X D6(PD7) 9 -650 -250 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# EKR82_Pro-rescue_R-EKR82-cache
+# EKR82-rescue_R-EKR82-cache
 #
-DEF EKR82_Pro-rescue_R-EKR82-cache R 0 0 N Y 1 F N
+DEF EKR82-rescue_R-EKR82-cache R 0 0 N Y 1 F N
 F0 "R" 0 0 50 V V C CNN
-F1 "EKR82_Pro-rescue_R-EKR82-cache" -100 0 50 V V C CNN
+F1 "EKR82-rescue_R-EKR82-cache" -100 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -186,11 +186,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# EKR82_Pro-rescue_SW_PUSH-EKR82-cache
+# EKR82-rescue_SW_PUSH-EKR82-cache
 #
-DEF EKR82_Pro-rescue_SW_PUSH-EKR82-cache SW 0 40 N N 1 F N
+DEF EKR82-rescue_SW_PUSH-EKR82-cache SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "EKR82_Pro-rescue_SW_PUSH-EKR82-cache" 0 -80 50 H V C CNN
+F1 "EKR82-rescue_SW_PUSH-EKR82-cache" 0 -80 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -201,11 +201,11 @@ X 2 2 300 0 200 L 50 50 0 1 P I
 ENDDRAW
 ENDDEF
 #
-# EKR82_Pro-rescue_SW_RST-EKR82-cache
+# EKR82-rescue_SW_RST-EKR82-cache
 #
-DEF EKR82_Pro-rescue_SW_RST-EKR82-cache RSW 0 40 N N 1 F N
+DEF EKR82-rescue_SW_RST-EKR82-cache RSW 0 40 N N 1 F N
 F0 "RSW" 100 100 40 H V C CNN
-F1 "EKR82_Pro-rescue_SW_RST-EKR82-cache" 0 -100 50 H V C CNN
+F1 "EKR82-rescue_SW_RST-EKR82-cache" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -216,11 +216,11 @@ X 2 2 150 0 100 L 50 50 0 1 P I
 ENDDRAW
 ENDDEF
 #
-# EKR82_Pro-rescue_VCC-EKR82-cache
+# EKR82-rescue_VCC-EKR82-cache
 #
-DEF EKR82_Pro-rescue_VCC-EKR82-cache #PWR 0 0 Y Y 1 F P
+DEF EKR82-rescue_VCC-EKR82-cache #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "EKR82_Pro-rescue_VCC-EKR82-cache" 0 150 50 H V C CNN
+F1 "EKR82-rescue_VCC-EKR82-cache" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -230,11 +230,11 @@ X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# EKR82_Pro-rescue_i2c_pin-EKR82-cache
+# EKR82-rescue_i2c_pin-EKR82-cache
 #
-DEF EKR82_Pro-rescue_i2c_pin-EKR82-cache J 0 40 Y N 1 F N
+DEF EKR82-rescue_i2c_pin-EKR82-cache J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "EKR82_Pro-rescue_i2c_pin-EKR82-cache" 0 -100 50 H V C CNN
+F1 "EKR82-rescue_i2c_pin-EKR82-cache" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
