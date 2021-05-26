@@ -1,3 +1,3 @@
-# EKR82
+# EKR82 Keyboard
 
 Fork EKR82
