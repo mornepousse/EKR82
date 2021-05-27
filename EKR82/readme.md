@@ -1,15 +1,13 @@
 # EKR82
 
-EKR82 is 6×4+5keys column-staggered split keyboard.
+EKR82 is 7×5+6keys column-staggered split keyboard.
 
-![EKR82_01](https://user-images.githubusercontent.com/6285554/50394214-72479880-079f-11e9-9d91-33fdbf1d7715.jpg)
-![2018-12-24 17 39 58](https://user-images.githubusercontent.com/6285554/50394779-05360200-07a3-11e9-82b5-066fd8907ecf.png)
-Keyboard Maintainer: [Naoki Katahira](https://github.com/kata0510/) [Twitter:@F_YUUCHI](https://twitter.com/F_YUUCHI)  
-Hardware Supported: EKR82 PCB, ProMicro  
-Hardware Availability: [PCB & Case Data](https://github.com/kata0510/EKR82)
+schematic:
+![2018-12-24 17 39 58](https://github.com/mornepousse/EKR82/blob/master/version82.PNG)
+Hardware Supported: EKR82 PCB, ProMicro, goldfish 
 
 Make example for this keyboard (after setting up your build environment):
 
-    make EKR82:default
+    make EKR82:via
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
