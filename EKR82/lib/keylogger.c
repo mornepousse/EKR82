@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "action.h"
 #include "EKR82.h"
 
 char keylog_str[24] = {};

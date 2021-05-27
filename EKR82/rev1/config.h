@@ -20,12 +20,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #pragma once
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0xFC51
-#define PRODUCT_ID      0x0058 
-#define DEVICE_VER      0x0100
-#define MANUFACTURER    F_YUUCHI
+#define VENDOR_ID       0x04F8
+#define PRODUCT_ID      0xEB2f
+#define DEVICE_VER      0x0010
+#define MANUFACTURER    Harrael
 #define PRODUCT         EKR82
-#define DESCRIPTION     EKR82 is 6×4+5keys column-staggered split keyboard.
 
 /* key matrix size */
 // Rows are doubled-up
@@ -33,11 +32,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_COLS 7
 
 // wiring of each half
-#define MATRIX_ROW_PINS {F5, C6, D7, E6, B4, B5 }
+#define MATRIX_ROW_PINS { F5, C6, D7, E6, B4, B5 }
 #define MATRIX_COL_PINS {F4, F6, F7, B1, B3, B2, B6 }
 
-/* define tapping term */
-#define TAPPING_TERM 200
+#define SOFT_SERIAL_PIN D2
+#define SERIAL_USE_MULTI_TRANSACTION
 
 /* define if matrix has ghost */
 //#define MATRIX_HAS_GHOST
@@ -53,7 +52,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* ws2812 RGB LED */
 #define RGB_DI_PIN D3
 #define RGBLED_NUM 12    // Number of LEDs
-
+#define SPLIT_USB_DETECT
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.

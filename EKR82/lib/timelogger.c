@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "timer.h"
 #include "EKR82.h"
 
 char timelog_str[24] = {};

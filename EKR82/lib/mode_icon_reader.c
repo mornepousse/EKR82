@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 #include "EKR82.h"
 
 char mode_icon[24];
