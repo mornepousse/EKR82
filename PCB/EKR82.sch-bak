@@ -1363,7 +1363,7 @@ Connection ~ 5500 4850
 Text GLabel 3850 2600 2    50   Input ~ 0
 row5
 Wire Wire Line
-	9500 4200 9500 5500
+	9500 4200 9500 4850
 $Comp
 L EKR82-rescue:SW_PUSH-EKR82-cache SW30
 U 1 1 5F3DDCD3
@@ -1515,4 +1515,32 @@ F 3 "" H 7425 6225 60  0000 C CNN
 	1    7425 6225
 	1    0    0    -1  
 $EndComp
+$Comp
+L EKR82-rescue:SW_PUSH-EKR82-cache SW41
+U 1 1 5FADB58E
+P 9800 4850
+F 0 "SW41" H 9800 5000 50  0000 C CNN
+F 1 "SW_PUSH" H 9800 4750 50  0000 C CNN
+F 2 "keyboard_switch:CherryMX_KailhLowProfile_Hotswap_edge-2" H 9800 4850 50  0001 C CNN
+F 3 "" H 9800 4850 50  0000 C CNN
+	1    9800 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L EKR82-rescue:D-EKR82-cache D41
+U 1 1 5FADB594
+P 10100 5000
+F 0 "D41" V 10146 4921 50  0000 R CNN
+F 1 "D" V 10055 4921 50  0000 R CNN
+F 2 "keyboard_switch:Diode_SOD123" H 10100 5000 50  0001 C CNN
+F 3 "" H 10100 5000 50  0001 C CNN
+	1    10100 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9300 5150 10100 5150
+Connection ~ 9500 4850
+Wire Wire Line
+	9500 4850 9500 5500
+Connection ~ 9300 5150
 $EndSCHEMATC

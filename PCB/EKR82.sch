@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:EKR82-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -731,52 +730,6 @@ row3
 Text GLabel 2550 3200 0    50   Input ~ 0
 row4
 $Comp
-L EKR82-rescue:VCC-EKR82-cache #PWR05
-U 1 1 5B739B47
-P 4400 4800
-F 0 "#PWR05" H 4400 4650 50  0001 C CNN
-F 1 "VCC" H 4400 4950 50  0000 C CNN
-F 2 "" H 4400 4800 50  0001 C CNN
-F 3 "" H 4400 4800 50  0001 C CNN
-	1    4400 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L EKR82-rescue:VCC-EKR82-cache #PWR06
-U 1 1 5B739CDC
-P 4550 4800
-F 0 "#PWR06" H 4550 4650 50  0001 C CNN
-F 1 "VCC" H 4550 4950 50  0000 C CNN
-F 2 "" H 4550 4800 50  0001 C CNN
-F 3 "" H 4550 4800 50  0001 C CNN
-	1    4550 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L EKR82-rescue:R-EKR82-cache R1
-U 1 1 5B739F4A
-P 4400 4950
-F 0 "R1" V 4500 4950 50  0000 C BNN
-F 1 "R" V 4400 4950 50  0000 C CNN
-F 2 "EKR82-footprint:RESISTOR_mini" V 4330 4950 50  0001 C CNN
-F 3 "" H 4400 4950 50  0001 C CNN
-	1    4400 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L EKR82-rescue:R-EKR82-cache R2
-U 1 1 5B73A034
-P 4550 4950
-F 0 "R2" V 4650 4950 50  0000 C BNN
-F 1 "R" V 4550 4950 50  0000 C CNN
-F 2 "EKR82-footprint:RESISTOR_mini" V 4480 4950 50  0001 C CNN
-F 3 "" H 4550 4950 50  0001 C CNN
-	1    4550 4950
-	1    0    0    -1  
-$EndComp
-Text GLabel 4400 5100 3    50   Input ~ 0
-SDA
-$Comp
 L EKR82-rescue:MJ-4PP-9-EKR82-cache J2
 U 1 1 5B742D8C
 P 2700 4350
@@ -934,8 +887,6 @@ F 3 "" H 8100 6150 60  0000 C CNN
 	1    8100 6150
 	1    0    0    -1  
 $EndComp
-Text GLabel 4550 5100 3    50   Input ~ 0
-SCL
 Connection ~ 7700 2550
 Wire Wire Line
 	7700 2550 8500 2550
@@ -1118,7 +1069,7 @@ Wire Wire Line
 	2550 2400 2300 2400
 Connection ~ 2550 2400
 $Comp
-L power:GND #PWR02
+L EKR82-rescue:GND-power #PWR02
 U 1 1 5B8F3218
 P 3250 4600
 F 0 "#PWR02" H 3250 4350 50  0001 C CNN
@@ -1129,7 +1080,7 @@ F 3 "" H 3250 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR01
+L EKR82-rescue:VCC-power #PWR01
 U 1 1 5B8F42DA
 P 3250 4150
 F 0 "#PWR01" H 3250 4000 50  0001 C CNN
@@ -1143,28 +1094,6 @@ Wire Wire Line
 	3250 4350 3150 4350
 Wire Wire Line
 	3150 4450 3250 4450
-$Comp
-L EKR82-rescue:i2c_pin-EKR82-cache P1
-U 1 1 5B8F6780
-P 3550 4000
-F 0 "P1" H 3550 4100 50  0000 C CNN
-F 1 "i2c_pin" V 3650 4000 50  0000 C CNN
-F 2 "EKR82-footprint:1pin_conn" H 3550 4000 50  0001 C CNN
-F 3 "" H 3550 4000 50  0001 C CNN
-	1    3550 4000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L EKR82-rescue:i2c_pin-EKR82-cache P2
-U 1 1 5B8F6980
-P 3550 4750
-F 0 "P2" H 3550 4650 50  0000 C CNN
-F 1 "i2c_pin" V 3650 4750 50  0000 C CNN
-F 2 "EKR82-footprint:1pin_conn" H 3550 4750 50  0001 C CNN
-F 3 "" H 3550 4750 50  0001 C CNN
-	1    3550 4750
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3150 4550 3550 4550
 Wire Wire Line
@@ -1173,26 +1102,14 @@ Wire Wire Line
 	3250 4150 3250 4350
 Wire Wire Line
 	3250 4450 3250 4600
-$Comp
-L Device:Jumper W1
-U 1 1 5B900157
-P 3850 4550
-F 0 "W1" H 3850 4500 50  0000 C CNN
-F 1 "jumper" H 3850 4700 50  0000 C CNN
-F 2 "EKR82-footprint:jumper_data" H 3850 4550 50  0001 C CNN
-F 3 "" H 3850 4550 50  0000 C CNN
-	1    3850 4550
-	-1   0    0    1   
-$EndComp
 Text GLabel 2550 2200 0    50   Input ~ 0
 DATA
-Text GLabel 4150 4550 2    50   Input ~ 0
+Text GLabel 3550 4550 2    50   Input ~ 0
 DATA
 Wire Wire Line
 	3850 2200 4150 2200
 Wire Wire Line
 	3850 2400 4150 2400
-Connection ~ 3550 4550
 Connection ~ 9500 4200
 $Comp
 L EKR82-rescue:SW_PUSH-EKR82-cache SW31
@@ -1543,4 +1460,26 @@ Connection ~ 9500 4850
 Wire Wire Line
 	9500 4850 9500 5500
 Connection ~ 9300 5150
+$Comp
+L EKR82-rescue:i2c_pin-EKR82-cache P1
+U 1 1 5B8F6780
+P 3550 4000
+F 0 "P1" H 3550 4100 50  0000 C CNN
+F 1 "i2c_pin" V 3650 4000 50  0000 C CNN
+F 2 "EKR82-footprint:1pin_conn" H 3550 4000 50  0001 C CNN
+F 3 "" H 3550 4000 50  0001 C CNN
+	1    3550 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L EKR82-rescue:i2c_pin-EKR82-cache P2
+U 1 1 5B8F6980
+P 3550 4750
+F 0 "P2" H 3550 4650 50  0000 C CNN
+F 1 "i2c_pin" V 3650 4750 50  0000 C CNN
+F 2 "EKR82-footprint:1pin_conn" H 3550 4750 50  0001 C CNN
+F 3 "" H 3550 4750 50  0001 C CNN
+	1    3550 4750
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
