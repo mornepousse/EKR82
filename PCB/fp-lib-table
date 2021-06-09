@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name EKR82-footprint)(type KiCad)(uri ${KIPRJMOD}/EKR82-footprint.pretty)(options "")(descr ""))
+)

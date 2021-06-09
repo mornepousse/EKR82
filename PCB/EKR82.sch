@@ -1483,7 +1483,7 @@ F 3 "" H 3550 4750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED:SK6812MINI D43
+L EKR82-rescue:SK6812MINI-LED D43
 U 1 1 60C19178
 P 3100 9450
 F 0 "D43" H 3444 9496 50  0000 L CNN
@@ -1494,7 +1494,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812MINI D44
+L EKR82-rescue:SK6812MINI-LED D44
 U 1 1 60C1D7C9
 P 3700 9450
 F 0 "D44" H 4044 9496 50  0000 L CNN
@@ -1505,7 +1505,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812MINI D45
+L EKR82-rescue:SK6812MINI-LED D45
 U 1 1 60C1D7CF
 P 4300 9450
 F 0 "D45" H 4644 9496 50  0000 L CNN
@@ -1516,7 +1516,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812MINI D46
+L EKR82-rescue:SK6812MINI-LED D46
 U 1 1 60C24290
 P 4900 9450
 F 0 "D46" H 5244 9496 50  0000 L CNN
@@ -1527,7 +1527,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812MINI D47
+L EKR82-rescue:SK6812MINI-LED D47
 U 1 1 60C24296
 P 5500 9450
 F 0 "D47" H 5844 9496 50  0000 L CNN
@@ -1538,7 +1538,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812MINI D48
+L EKR82-rescue:SK6812MINI-LED D48
 U 1 1 60C2429C
 P 6100 9450
 F 0 "D48" H 6444 9496 50  0000 L CNN
@@ -1549,7 +1549,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812MINI D49
+L EKR82-rescue:SK6812MINI-LED D49
 U 1 1 60C242A2
 P 6700 9450
 F 0 "D49" H 7044 9496 50  0000 L CNN
@@ -1560,7 +1560,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812MINI D50
+L EKR82-rescue:SK6812MINI-LED D50
 U 1 1 60C292EA
 P 7300 9450
 F 0 "D50" H 7644 9496 50  0000 L CNN
@@ -1571,7 +1571,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812MINI D51
+L EKR82-rescue:SK6812MINI-LED D51
 U 1 1 60C292F0
 P 7900 9450
 F 0 "D51" H 8244 9496 50  0000 L CNN
@@ -1582,7 +1582,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812MINI D52
+L EKR82-rescue:SK6812MINI-LED D52
 U 1 1 60C292F6
 P 1900 9450
 F 0 "D52" H 2244 9496 50  0000 L CNN
@@ -1651,7 +1651,7 @@ Connection ~ 7900 9750
 Wire Wire Line
 	7900 9750 8500 9750
 $Comp
-L power:VCC #PWR0103
+L EKR82-rescue:VCC-power #PWR0103
 U 1 1 60C31362
 P 2500 9750
 F 0 "#PWR0103" H 2500 9600 50  0001 C CNN
@@ -1662,7 +1662,7 @@ F 3 "" H 2500 9750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0104
+L EKR82-rescue:GND-power #PWR0104
 U 1 1 60C3AF7B
 P 2500 9150
 F 0 "#PWR0104" H 2500 8900 50  0001 C CNN
@@ -1675,7 +1675,7 @@ $EndComp
 Connection ~ 2500 9750
 Connection ~ 2500 9150
 $Comp
-L LED:SK6812MINI D42
+L EKR82-rescue:SK6812MINI-LED D42
 U 1 1 60C12BC0
 P 2500 9450
 F 0 "D42" H 2844 9496 50  0000 L CNN
@@ -1701,7 +1701,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 9750 1900 9750
 $Comp
-L LED:SK6812MINI D55
+L EKR82-rescue:SK6812MINI-LED D55
 U 1 1 60CA85DF
 P 3100 8350
 F 0 "D55" H 3444 8396 50  0000 L CNN
@@ -1712,7 +1712,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812MINI D56
+L EKR82-rescue:SK6812MINI-LED D56
 U 1 1 60CA85E5
 P 3700 8350
 F 0 "D56" H 4044 8396 50  0000 L CNN
@@ -1723,7 +1723,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812MINI D57
+L EKR82-rescue:SK6812MINI-LED D57
 U 1 1 60CA85EB
 P 4300 8350
 F 0 "D57" H 4644 8396 50  0000 L CNN
@@ -1734,7 +1734,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812MINI D58
+L EKR82-rescue:SK6812MINI-LED D58
 U 1 1 60CA85F1
 P 4900 8350
 F 0 "D58" H 5244 8396 50  0000 L CNN
@@ -1745,7 +1745,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812MINI D59
+L EKR82-rescue:SK6812MINI-LED D59
 U 1 1 60CA85F7
 P 5500 8350
 F 0 "D59" H 5844 8396 50  0000 L CNN
@@ -1756,7 +1756,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812MINI D60
+L EKR82-rescue:SK6812MINI-LED D60
 U 1 1 60CA85FD
 P 6100 8350
 F 0 "D60" H 6444 8396 50  0000 L CNN
@@ -1767,7 +1767,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812MINI D61
+L EKR82-rescue:SK6812MINI-LED D61
 U 1 1 60CA8603
 P 6700 8350
 F 0 "D61" H 7044 8396 50  0000 L CNN
@@ -1778,7 +1778,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812MINI D62
+L EKR82-rescue:SK6812MINI-LED D62
 U 1 1 60CA8609
 P 7300 8350
 F 0 "D62" H 7644 8396 50  0000 L CNN
@@ -1789,7 +1789,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812MINI D63
+L EKR82-rescue:SK6812MINI-LED D63
 U 1 1 60CA860F
 P 7900 8350
 F 0 "D63" H 8244 8396 50  0000 L CNN
@@ -1800,7 +1800,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED:SK6812MINI D53
+L EKR82-rescue:SK6812MINI-LED D53
 U 1 1 60CA8615
 P 1900 8350
 F 0 "D53" H 2244 8396 50  0000 L CNN
@@ -1869,7 +1869,7 @@ Connection ~ 7900 8650
 Wire Wire Line
 	7900 8650 8500 8650
 $Comp
-L power:VCC #PWR0105
+L EKR82-rescue:VCC-power #PWR0105
 U 1 1 60CA8641
 P 2500 8650
 F 0 "#PWR0105" H 2500 8500 50  0001 C CNN
@@ -1880,7 +1880,7 @@ F 3 "" H 2500 8650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0106
+L EKR82-rescue:GND-power #PWR0106
 U 1 1 60CA8647
 P 2500 8050
 F 0 "#PWR0106" H 2500 7800 50  0001 C CNN
@@ -1893,7 +1893,7 @@ $EndComp
 Connection ~ 2500 8650
 Connection ~ 2500 8050
 $Comp
-L LED:SK6812MINI D54
+L EKR82-rescue:SK6812MINI-LED D54
 U 1 1 60CA864F
 P 2500 8350
 F 0 "D54" H 2844 8396 50  0000 L CNN
@@ -1910,4 +1910,37 @@ Wire Wire Line
 Wire Wire Line
 	1600 9450 1600 8350
 Connection ~ 1600 9450
+$Comp
+L EKR82-rescue:HOLE-EKR82-cache THLogo1
+U 1 1 60C38EB6
+P 2125 6075
+F 0 "THLogo1" H 2125 6075 60  0000 C CNN
+F 1 "HOLE" H 2125 5975 60  0000 C CNN
+F 2 "EKR82-footprint:EKR82-2" H 2125 6075 60  0001 C CNN
+F 3 "" H 2125 6075 60  0000 C CNN
+	1    2125 6075
+	1    0    0    -1  
+$EndComp
+$Comp
+L EKR82-rescue:HOLE-EKR82-cache THLogo2
+U 1 1 60C8CADE
+P 2875 6025
+F 0 "THLogo2" H 2875 6025 60  0000 C CNN
+F 1 "HOLE" H 2875 5925 60  0000 C CNN
+F 2 "Symbol:OSHW-Symbol_8.9x8mm_SilkScreen" H 2875 6025 60  0001 C CNN
+F 3 "" H 2875 6025 60  0000 C CNN
+	1    2875 6025
+	1    0    0    -1  
+$EndComp
+$Comp
+L EKR82-rescue:HOLE-EKR82-cache THLogo3
+U 1 1 60CA1C7A
+P 3525 6225
+F 0 "THLogo3" H 3525 6225 60  0000 C CNN
+F 1 "HOLE" H 3525 6125 60  0000 C CNN
+F 2 "Symbol:OSHW-Symbol_8.9x8mm_SilkScreen" H 3525 6225 60  0001 C CNN
+F 3 "" H 3525 6225 60  0000 C CNN
+	1    3525 6225
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
